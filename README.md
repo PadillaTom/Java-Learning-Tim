@@ -3,3 +3,4 @@
 This is my Learning Path for Java Development.
 
 1) Hello World
+2) Primitive Types

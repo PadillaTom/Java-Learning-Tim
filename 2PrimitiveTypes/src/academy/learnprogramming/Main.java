@@ -6,6 +6,7 @@ public class Main {
 	int myValue = 10000;
 	int myMinIntValue = Integer.MIN_VALUE;
 	int myMaxIntValue = Integer.MAX_VALUE;
+	System.out.println(myValue);
 	System.out.println("Integer Minimum = " + myMinIntValue);
 	System.out.println("Integer Maximum = " + myMaxIntValue);
 	System.out.println("Overflowed the MAX Value : " + (myMaxIntValue + 1));
@@ -28,11 +29,12 @@ public class Main {
 	System.out.println(myMaxLong);
 
 	// Arithmetic and Casting
-        int myTotal = (myMinIntValue / 2);
+        int myTotal = (myMinIntValue / 2);		
         byte myNewByteValue = (byte)(myMinByte / 2);
+		System.out.println(myTotal);
         System.out.println(myNewByteValue);
-
-
+		short myNewShortvalue = (short) (myMinShort / 2);
+		System.out.println(myNewShortvalue);
 
     }
 }

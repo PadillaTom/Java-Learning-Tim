@@ -6,8 +6,9 @@ public class Excercises {
     // Excercise 2
         // printMbAndKb(2500);
     // Excercise 3
-        shouldWakeUp(true , 2);
+        // shouldWakeUp(true , 2);
     // Excercise 4
+    
     // Excercise 5
     // Excercise 6
    } 
@@ -42,8 +43,13 @@ public class Excercises {
     //       }
     //   }
     //  Ex 3:
-      public static void shouldWakeUp(boolean barking , int hourOfDay) {
-        System.out.println("Hi");
-        
-      }
+      // public static boolean shouldWakeUp(boolean barking , int hourOfDay) {
+    
+      //   if (!barking  || hourOfDay < 0 || hourOfDay > 23 || (hourOfDay > 7 && hourOfDay < 23)) {
+      //     return false;
+      //   } 
+      //     return true;        
+      // }
+    // Ex 4:
+
 }

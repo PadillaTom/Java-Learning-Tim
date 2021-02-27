@@ -4,9 +4,9 @@ public class Excercises {
         // toMilesPerHour(1.5);
         // printConversion(2.00);   
     // Excercise 2
-        printMbAndKb(2500);
-
+        // printMbAndKb(2500);
     // Excercise 3
+        shouldWakeUp(true , 2);
     // Excercise 4
     // Excercise 5
     // Excercise 6
@@ -32,13 +32,18 @@ public class Excercises {
       
     // } 
     //  Ex 2:
-      public static void printMbAndKb(int Kb) {
-        if(Kb < 0 ){
-          System.out.println("Invalid Value");
-        } else {
-          int myMb = Kb / 1024;
-          int myRem = Kb % 1024;
-          System.out.println(Kb + " KB = " + myMb + " MB and " + myRem + " KB" );
-        }
+    // public static void printMbAndKb(int Kb) {
+    //     if(Kb < 0 ){
+    //       System.out.println("Invalid Value");
+    //       } else {
+    //         int myMb = Kb / 1024;
+    //         int myRem = Kb % 1024;
+    //         System.out.println(Kb + " KB = " + myMb + " MB and " + myRem + " KB" );
+    //       }
+    //   }
+    //  Ex 3:
+      public static void shouldWakeUp(boolean barking , int hourOfDay) {
+        System.out.println("Hi");
+        
       }
 }

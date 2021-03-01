@@ -20,8 +20,7 @@ public class Excercises {
     //               long myRound = Math.round(kmPerHour / 1.609);
     //               System.out.println(myRound);
     //             return myRound;   
-    //           } 
-          
+    //           }           
     //       }
     // public static void printConversion (double kmPerHour){
     //   long myMiles = Math.round(kmPerHour * 0.621371)  ;
@@ -29,8 +28,7 @@ public class Excercises {
     //     System.out.println("Invalid Value");
     //   } else {
     //     System.out.println(kmPerHour + " Km/h" +" = "+ (double) myMiles + " Mi/h");
-    //   }
-      
+    //   }      
     // } 
     //  Ex 2:
     // public static void printMbAndKb(int Kb) {
@@ -51,5 +49,7 @@ public class Excercises {
       //     return true;        
       // }
     // Ex 4:
+    // Comenzamos:
+
 
 }

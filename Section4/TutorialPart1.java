@@ -1,4 +1,4 @@
-public class Tutorial2 {
+public class TutorialPart1 {
     public static void main(String[] args) {
     // Keywords and expressions
         // There are reserved keywords that cannot be used.
@@ -46,7 +46,7 @@ public class Tutorial2 {
     
         
     }
-
+    
     // Creating Methods:
         // public static int calculateScore(int age, String name, boolean married){
         //     System.out.println("--- User Info ---" );

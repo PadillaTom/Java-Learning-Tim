@@ -1,4 +1,4 @@
-public class Excercises {
+public class TutPart1EX {
    public static void main(String[] args) {
     // Excercise 1
         // toMilesPerHour(1.5);

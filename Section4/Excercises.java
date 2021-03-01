@@ -8,10 +8,11 @@ public class Excercises {
     // Excercise 3
         // shouldWakeUp(true , 2);
     // Excercise 4
+        isLeapYear(500);
     
     // Excercise 5
     // Excercise 6
-   } 
+   }
     //  Ex 1:
     //   public static long toMilesPerHour(double kmPerHour) {
     //           if(kmPerHour < 0) {
@@ -49,7 +50,8 @@ public class Excercises {
       //     return true;        
       // }
     // Ex 4:
-    // Comenzamos:
-
-
+    public static boolean isLeapYear (int year) {
+        System.out.println(year);
+        return true;
+    }
 }

@@ -16,7 +16,11 @@ public class TutorialPart2 {
         // ------------------
         // ::: EXERCISE 1 :::
         // ------------------
-        calcFeetAndInchesToCentimeters(0, 8);
+        double checker = calcFeetAndInchesToCentimeters(6,0);
+        if (checker < 0.0) {
+            System.out.println("Invalid Parameters");
+        }    
+        calcFeetAndInchesToCentimeters(100);
 
     }
 
@@ -44,13 +48,27 @@ public class TutorialPart2 {
         // ------------------
         // ::: EXERCISE 1 :::
         // ------------------
- public static double calcFeetAndInchesToCentimeters (int parFeet, int parInches ) {
+        // 1 foot = 12 inches -- 1 inch = 2.54cm
+ public static double calcFeetAndInchesToCentimeters (double parFeet, double parInches ) {
      if ((parFeet >= 0) && (parInches >= 0 && parInches <= 12)) {
-        System.out.println("Hi");
-        return 1;
+       double centimeters = (parFeet * 12 * 2.54) + (parInches * 2.54);
+       System.out.println(parFeet + " Feet and " + parInches + " Inches = " + centimeters + " Centimeters");
+       return (centimeters);
+        
      } else {
+         System.out.println("Invalid Parameters");
          return -1;
      }
+ }
+ public static double calcFeetAndInchesToCentimeters(double parInches) {
+     if (parInches >= 0 ) {
+         double myFeet =  (int)parInches / 12 ;
+         double myFeetRem = (int) parInches % 12;
+         System.out.println(" *** \n" + parInches + " Inches = " + myFeet + " Feet and " + myFeetRem);         
+         return calcFeetAndInchesToCentimeters(myFeet, myFeetRem);
+     }  else {
+          return -1;
+      }
  }
 
 }

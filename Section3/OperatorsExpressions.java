@@ -1,4 +1,4 @@
-import jdk.javadoc.internal.doclets.formats.html.SystemPropertiesWriter;
+package Section3;
 
 public class OperatorsExpressions {
     public static void main(String[] args) {

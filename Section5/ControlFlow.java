@@ -3,6 +3,7 @@ package Section5;
 public class ControlFlow {
     public static void main (String[] args) {
         // Switch Statement: Case - Break
+
         // int switchVal = 5;
         // switch (switchVal) {
         //     case 1: 
@@ -56,13 +57,17 @@ public class ControlFlow {
         //         System.out.println("Not Sure");
         // }
 
-    // Ex 3:
-    // printDayOfTheWeek(5);
-    // EX 4:
-    // printNumberInWord(8);
-    // EX 5:
-    System.out.println(isLeapYear(2017));
-    System.out.println(getDaysInMonth(2, 2000));
+        // Ex 3:
+        // printDayOfTheWeek(5);
+        // EX 4:
+        // printNumberInWord(8);
+        // EX 5:
+        // System.out.println(isLeapYear(2017));
+        // System.out.println(getDaysInMonth(2, 2000));
+
+        // ***************************************
+        //  FOR Loop
+
 
     }
         // ***
@@ -143,28 +148,31 @@ public class ControlFlow {
         // ***
         // Ex 5
         // ***
-        public static boolean isLeapYear(int year) {
-            if ((year < 1) || (year >=9999)){
-                return false;
-            } else {                
-                return (((year % 4 == 0) && (year % 100 != 0 ))|| (year%400 == 0));               
-            }            
-        }
-        public static int getDaysInMonth(int month, int year) {            
-            if((month < 1 || month > 12) || (year < 1 || year > 9999)) {
-                return -1;
-            } else if (isLeapYear(year)  && month == 2) {
-                return 29;
-            }   else {
-                switch(month){
-                    case 11: case 4: case 6: case 9: 
-                        return 30;                        
-                    case 2: 
-                        return 28;
-                    default:
-                        return 31;                        
-                }
-            }
-        }
+        // public static boolean isLeapYear(int year) {
+        //     if ((year < 1) || (year >=9999)){
+        //         return false;
+        //     } else {                
+        //         return (((year % 4 == 0) && (year % 100 != 0 ))|| (year%400 == 0));               
+        //     }            
+        // }
+        // public static int getDaysInMonth(int month, int year) {            
+        //     if((month < 1 || month > 12) || (year < 1 || year > 9999)) {
+        //         return -1;
+        //     } else if (isLeapYear(year)  && month == 2) {
+        //         return 29;
+        //     }   else {
+        //         switch(month){
+        //             case 11: case 4: case 6: case 9: 
+        //                 return 30;                        
+        //             case 2: 
+        //                 return 28;
+        //             default:
+        //                 return 31;                        
+        //         }
+        //     }
+        // }
+
+        // *****************************
+        // FOR Loop
 
 }

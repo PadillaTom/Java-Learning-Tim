@@ -10,10 +10,11 @@ public class ControlExercises {
         // **************
         // Ex 16:
         // **************
-        System.out.println(sumFirstAndLastDigit(10));
+        // System.out.println(sumFirstAndLastDigit(10));
         // **************
         // Ex 17:
         // **************
+        // System.out.println(getEvenDigitSum(65));
         
         // **************
         // Ex 18:
@@ -97,21 +98,32 @@ public class ControlExercises {
     // **************
     // Ex 16:
     // **************
-    public static int sumFirstAndLastDigit(int number){
-        int storedNum = number;
-        int lastDig = storedNum % 10;
-        if(number < 0){
-            return -1;
-        }
-        while (number > 9){
-            number /= 10;
-        }            
-        return lastDig + number;        
-    }  
+    // public static int sumFirstAndLastDigit(int number){
+    //     int storedNum = number;
+    //     int lastDig = storedNum % 10;
+    //     if(number < 0){
+    //         return -1;
+    //     }
+    //     while (number > 9){
+    //         number /= 10;
+    //     }            
+    //     return lastDig + number;        
+    // }  
 
     // **************
     // Ex 17:
     // **************
+    // public static int getEvenDigitSum (int number) {
+    //     if (number < 0) return -1;
+    //     int sum = 0;
+    //     int remainder = 0;        
+    //     while (number > 0) {
+    //         remainder = number % 10;
+    //         sum += (remainder % 2 == 0 ) ? remainder : 0;
+    //         number /= 10;
+    //     }
+    //     return sum;
+    // }
     
     // **************
     // Ex 18:

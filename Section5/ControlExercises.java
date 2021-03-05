@@ -128,6 +128,11 @@ public class ControlExercises {
     // **************
     // Ex 18:
     // **************
+    public static boolean hasSharedDigit ( int par1, int par2){
+        System.out.println("Hit");
+        return true;
+    }
+
 
     // **************
     // Ex 19:

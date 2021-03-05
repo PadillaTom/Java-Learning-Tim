@@ -112,11 +112,30 @@ public class ControlFlow {
         // ****************************
         // While - Do  LOOPS
         // ****************************
-        int count = 1;
-        while (count != 6) {
-            System.out.println("Current Count: "+ count);
-            count++;
-        }
+        // int count = 1;
+        // while (count != 6) {
+        //     System.out.println("Current Count: "+ count);
+        //     count++;
+        // };
+        // count = 1 ;
+        // do {
+        //     System.out.println("DOing count: " + count);
+        //     count++;
+        // } while (count != 6);
+        // int number = 4;
+        // int finishNumber = 20;
+        // int count = 0;
+        // while ((number <= finishNumber) && (count<=5)){
+        //     number++;
+        //     if (!isEvenNumber(number)){
+        //         continue;
+        //     }            
+        //     System.out.println("Even Num: " + number);            
+        //     count++;
+        // }
+        // System.out.println("Total Even Numbers found: " + count);
+
+        // System.out.println("Sum of Digits in: 125 is: " +  sumDigits(12));
 
     }
 
@@ -270,5 +289,27 @@ public class ControlFlow {
         // ****************************
         // While - Do  LOOPS
         // ****************************
+        // public static boolean isEvenNumber(int par){
+        //    if (par % 2 == 0) {
+        //        return true;
+        //    } 
+        //    return false;
+        // }
 
+        // public static int sumDigits ( int number) {
+        //     if(number < 10) {
+        //         return -1;
+        //     } 
+        //     int sum = 0;
+
+        //     while (number > 0){
+        //         // Get Least-significant digit:
+        //         int digit = number % 10;
+        //         sum += digit;
+
+        //         // Drop the Least significant digit:
+        //         number /= 10;
+        //     }
+        //     return sum;
+        // }  
 }

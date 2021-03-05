@@ -2,8 +2,9 @@ package Section5;
 
 public class ControlFlow {
     public static void main (String[] args) {
+        // ************************
         // Switch Statement: Case - Break
-
+        // ************************
         // int switchVal = 5;
         // switch (switchVal) {
         //     case 1: 
@@ -66,10 +67,59 @@ public class ControlFlow {
         // System.out.println(getDaysInMonth(2, 2000));
 
         // ***************************************
-        //  FOR Loop
+        //  FOR Loop --> for(Initial ; Termination; Increment){}
+        // ***************************************
 
+        // INTEREST CALC
+        // System.out.println(calculateInterest(1000.0, 2.0));
+        // for(int i = 2; i < 9; i++){
+        //     // System.out.println("Loop Number " + i );
+        //     System.out.println("For 1000$ at "+ i + "% rate you would get: " + String.format("%.2f",calculateInterest(1000, i)) + "$.");
+        // };
+        // for (double i = 8; i > 1; i--){
+        //     System.out.println("For 1000$ at "+ i + "% rate you would get: " + String.format("%.2f",calculateInterest(1000, i)) + "$.");
+        // }
+
+        // PRIME NUMBERS
+        // System.out.println(isPrime(13));
+        // int count = 0;
+        // for ( int i = 1; i < 51; i++) {
+        //     if (isPrime(i)){
+        //         count ++;               
+        //     }            
+        // }
+        // System.out.println("Amount of Prime numbers is: " + count);
+
+        // SUM 3 AND 5
+        // int count = 0;
+        // int sum = 0;
+        // for (int i = 1; i <1001; i++) {
+        //     if ((i % 3 == 0) && (i % 5 == 0)){
+        //         count ++;
+        //         sum += i;
+        //         System.out.println("This number: " + i + " is Divisible by both 3 and 5.");
+        //         if(count == 5){                    
+        //             break;
+        //         }
+        //     }
+        // }
+        // System.out.println("All numberes sum: " + sum);
+
+        // SUM ODD
+        // System.out.println(isOdd(11));
+        // System.out.println(sumOdd(100, 1000));
+
+        // ****************************
+        // While - Do  LOOPS
+        // ****************************
+        int count = 1;
+        while (count != 6) {
+            System.out.println("Current Count: "+ count);
+            count++;
+        }
 
     }
+
         // ***
         // Ex 3: Challenge Days of Week.
         // ***
@@ -140,8 +190,7 @@ public class ControlFlow {
         //             break;
         //         default: 
         //             System.out.println("OTHER");
-        //             break;
-                
+        //             break;                
         //     }
         // }
 
@@ -174,5 +223,52 @@ public class ControlFlow {
 
         // *****************************
         // FOR Loop
+        // *****************************
+        // INTEREST CALC
+        // public static double calculateInterest (double amount, double interestRate){
+        //     return (amount *(interestRate/100));
+        // }
+        // PRIME NUMBERS
+        // public static boolean isPrime (int num){
+        //     if (num == 1 ){
+        //         return false;
+        //     }
+        //     for (int i=2; i <= num/2; i ++) {
+        //         if (num % i == 0) {
+        //             return false;
+        //         }
+        //     }
+        //     return true;
+        // }
+        // SUM 3 AND 5
+        // SUM ODD
+        // public static boolean isOdd (int number){
+        //     if (number <= 0){
+        //         return false;
+        //     } else {
+        //         if(number % 2 == 0){
+        //             return false;
+        //         }
+        //     }   
+        //     return true;          
+        // }
+        // public static int sumOdd (int start, int end){
+        //     int sum = 0;
+        //     int myEnd = end + 1;
+        //     if( (end < start) || (end < 0) || (start < 0)){
+        //         return -1;
+        //     } else {
+        //         for (int i = start; i < myEnd; i++){
+        //             if(isOdd(i)){
+        //                 sum += i;
+        //             }
+        //         }
+        //         return sum;
+        //     }
+        // }
+
+        // ****************************
+        // While - Do  LOOPS
+        // ****************************
 
 }

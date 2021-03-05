@@ -19,7 +19,7 @@ public class ControlExercises {
         // **************
         // Ex 18:
         // **************
-
+        // System.out.println(hasSharedDigit(10, 21));
         // **************
         // Ex 19:
         // **************
@@ -128,10 +128,13 @@ public class ControlExercises {
     // **************
     // Ex 18:
     // **************
-    public static boolean hasSharedDigit ( int par1, int par2){
-        System.out.println("Hit");
-        return true;
-    }
+    // public static boolean hasSharedDigit ( int par1, int par2){
+    //     if ((par1 > 99) || (par1 < 10) || (par2 > 99) || (par2 < 10)){
+    //         return false;
+    //    } else {
+    //         return ((par1/10 == par2/10) || (par1/10 == par2%10) || (par2/10 == par1 % 10) || (par1%10 == par2%10));
+    //    }
+    // }
 
 
     // **************

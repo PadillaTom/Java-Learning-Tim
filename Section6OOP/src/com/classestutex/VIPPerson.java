@@ -1,4 +1,4 @@
-package com.exercises1;
+package com.classestutex;
 
 public class VIPPerson {
     private String name;

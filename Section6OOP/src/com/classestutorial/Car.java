@@ -1,4 +1,4 @@
-package com.classes;
+package com.classestutorial;
 
 public class Car {
 //    These variables are STATE of the car.

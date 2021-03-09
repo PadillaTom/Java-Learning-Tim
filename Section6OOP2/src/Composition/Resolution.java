@@ -1,13 +1,13 @@
-public class Dimensions {
+package Composition;
+
+public class Resolution {
     private int width;
     private int height;
-    private int depth;
 
-//    Const:
-    public Dimensions(int width, int height, int depth) {
+//    Constructors:
+    public Resolution(int width, int height) {
         this.width = width;
         this.height = height;
-        this.depth = depth;
     }
 //    Getters:
     public int getWidth() {
@@ -15,8 +15,5 @@ public class Dimensions {
     }
     public int getHeight() {
         return height;
-    }
-    public int getDepth() {
-        return depth;
     }
 }

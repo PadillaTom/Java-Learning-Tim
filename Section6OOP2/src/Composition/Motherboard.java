@@ -1,3 +1,5 @@
+package Composition;
+
 public class Motherboard {
     private String model;
     private String manufacturer;

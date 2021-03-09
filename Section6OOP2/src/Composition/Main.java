@@ -1,3 +1,5 @@
+package Composition;
+
 public class Main {
 
     public static void main (String[] args) {
@@ -14,7 +16,7 @@ public class Main {
         PC thePC = new PC (theCase, theMonitor, theMotherboard);
 
 //  Accessing Methods
-//        COMPOSITION 1: Public methods accessed by PC
+//        COMPOSITION 1: Public methods accessed by Composition.PC
 //        thePC.getMonitor().drawPixelAt(1500,1200, "red");
 //        thePC.getMotherboard().loadProgram("Windows 1.0");
 //        thePC.getTheCase().pressPowerButton();

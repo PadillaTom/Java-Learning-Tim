@@ -1,3 +1,5 @@
+package Composition;
+
 public class PC {
     private Case theCase;
     private Monitor monitor;
@@ -10,13 +12,13 @@ public class PC {
         this.motherboard = motherboard;
     }
 //    Getters:
-//    private Case getTheCase() {
+//    private Composition.Case getTheCase() {
 //        return theCase;
 //    }
-//    private Monitor getMonitor() {
+//    private Composition.Monitor getMonitor() {
 //        return monitor;
 //    }
-//    private Motherboard getMotherboard() {
+//    private Composition.Motherboard getMotherboard() {
 //        return motherboard;
 //    }
 

@@ -12,10 +12,15 @@ public class Main {
         Motherboard theMotherboard = new Motherboard("BJ-200", "Asus", 4, 6, "v2.44");
 
         PC thePC = new PC (theCase, theMonitor, theMotherboard);
-//  Accessing Methods inside PC->Classes
-        thePC.getMonitor().drawPixelAt(1500,1200, "red");
-        thePC.getMotherboard().loadProgram("Windows 1.0");
-        thePC.getTheCase().pressPowerButton();
+
+//  Accessing Methods
+//        COMPOSITION 1: Public methods accessed by PC
+//        thePC.getMonitor().drawPixelAt(1500,1200, "red");
+//        thePC.getMotherboard().loadProgram("Windows 1.0");
+//        thePC.getTheCase().pressPowerButton();
+
+//        COMPOSITION 2: Private Methods accessed internally.
+        thePC.powerUp();
     }
 
 }

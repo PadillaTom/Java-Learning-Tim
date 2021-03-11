@@ -8,8 +8,6 @@ public class Main {
         System.out.println("Pages printed was " + pagesPrinted + ", new count of pages printed: " + printer.getPagesPrinted());
         pagesPrinted = printer.printPages(2);
         System.out.println("Pages printed was " + pagesPrinted + ", new count of pages printed: " + printer.getPagesPrinted());
-
-
-
     }
 }
+

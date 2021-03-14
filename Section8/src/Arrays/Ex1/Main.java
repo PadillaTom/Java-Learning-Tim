@@ -1,4 +1,4 @@
-package Ex1;
+package Arrays.Ex1;
 
 import java.util.Scanner;
 

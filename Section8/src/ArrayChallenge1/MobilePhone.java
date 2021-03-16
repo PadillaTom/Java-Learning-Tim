@@ -29,8 +29,18 @@ public class MobilePhone {
         System.out.println(oldContact.getName() + ", was replaced for: " + newContact.getName());
         return true;
     }
+    public boolean removeContact(Contact contact){
+        int foundPosition = findContact(contact);
+        if(foundPosition <0){
+            System.out.println(contact.getName() + " Not found.");
+            return false;
+        }
+        this.myContacts.remove(foundPosition);
+        System.out.println(contact.getName() + " was deleted.");
+        return true;
+    }
 
-//    Find Methods: Int and Boolean.
+//    Find Methods: Int and String.
     private int findContact(Contact contact){
         return this.myContacts.indexOf(contact);
             }
@@ -42,5 +52,27 @@ public class MobilePhone {
             }
         }
         return -1;
+    }
+    public String queryContact(Contact contact){
+        if(findContact(contact)>=0){
+            return contact.getName();
+        }
+        return null;
+    }
+    public Contact queryContact(String name){
+        int position = findContact(name);
+        if(position >=0){
+            return this.myContacts.get(position);
+        }
+        return null;
+    }
+
+
+//    Methods for MAIN:
+    public void printContacts(){
+        System.out.println("Contact List: ");
+        for (int i=0; i<this.myContacts.size(); i++) {
+            System.out.println((i+1)+"-\tName: "+ this.myContacts.get(i).getName() + "\n\tPhone: " + this.myContacts.get(i).getPhoneNumber() + "\n");
+        }
     }
 }

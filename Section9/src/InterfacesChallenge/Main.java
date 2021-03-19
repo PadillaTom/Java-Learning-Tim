@@ -5,16 +5,24 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+//        *** Player ***
         Player tim = new Player("Tim",10,15);
         System.out.println(tim.toString());
         saveObject(tim);
-
         tim.setHitPoints(8);
         System.out.println(tim);
         tim.setWeapon("Axe");
         saveObject(tim);
-        loadObject(tim);
+//        loadObject(tim);
         System.out.println(tim);
+
+//        *** Monster ***
+        ISaveable werewolf = new Monster("Werewolf", 20, 40);
+        System.out.println(werewolf);
+        saveObject(werewolf);
+
+//        --- If we want to access methods of the actual class ---
+        System.out.println( ((Monster) werewolf).getName() +"'s STR => "+ ((Monster) werewolf).getStrength());
     }
 
 //    To READ Values:
